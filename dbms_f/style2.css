@@ -1,0 +1,94 @@
+/* Additional styles for the content */
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #dc3545;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #343a40;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #495057;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    padding: 2rem;
+}
+
+.awareness {
+    margin-bottom: 2rem;
+}
+
+.awareness h2 {
+    color: #dc3545;
+    margin-bottom: 1rem;
+}
+
+.awareness p {
+    margin-bottom: 0.5rem;
+}
+
+.awareness ul {
+    margin-bottom: 1rem;
+}
+
+.gallery {
+    margin-top: 2rem;
+}
+
+.gallery h2 {
+    color: #dc3545;
+    margin-bottom: 1rem;
+}
+.gallery img {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
